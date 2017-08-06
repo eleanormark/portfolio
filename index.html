@@ -9,44 +9,30 @@
   </head>
   <body>
     <div class="container">
-        <div class="content">
-          <div class="greeting">Hello, I'm Eleanor.</div>
-          <a href="https://www.linkedin.com/in/eleanormark/"  target="_blank">
-            <span class="fa-stack">
-              <i class="fa fa-square-o fa-stack-2x"></i>
-              <i class="fa fa-linkedin fa-stack-1x"></i>
-            </span>
-          </a>
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          <a href="https://github.com/eleanormark"  target="_blank">
-            <span class="fa-stack">
-              <i class="fa fa-square-o fa-stack-2x"></i>
-              <i class="fa fa-github fa-stack-1x"></i>
-            </span>
-          </a>
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          <a class="file" href="https://docs.google.com/document/d/1oYWMDweBQ1caz0YsWIjXHAatm4ah3YWOc4AcLSdJ5EU/edit?usp=sharing"  target="_blank">
-            <i class="fa fa-file-text-o fa-5x" aria-hidden="true"></i>
-          </a>
-        </div><!-- /content -->
-
-        <video id="my-video" class="video" loop="loop" muted="" width="300" height="150">
-          <source src="./assets/media/demo.mp4" type="video/mp4"/>
-        </video>
-
+      <video id="my-video" class="video" loop="loop" muted="" width="300" height="150">
+        <source src="./assets/media/water.mp4" type="video/mp4"/>
+      </video>
+      <script src="./assets/js/video.js"></script>
+      <div class="content">
+        <div class="greeting">Hello, I'm Eleanor.</div>
+        <a href="https://www.linkedin.com/in/eleanormark/"  target="_blank">
+          <span class="fa-stack">
+            <i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x"></i>
+          </span>
+        </a>
+        <span>&nbsp;&nbsp;&nbsp;</span>
+        <a href="https://github.com/eleanormark"  target="_blank">
+          <span class="fa-stack">
+            <i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x"></i>
+          </span>
+        </a>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <a class="file" href="https://docs.google.com/document/d/1oYWMDweBQ1caz0YsWIjXHAatm4ah3YWOc4AcLSdJ5EU/edit?usp=sharing"  target="_blank">
+          <i class="fa fa-file-text-o fa-5x" aria-hidden="true"></i>
+        </a>
+      </div><!-- /content -->
     </div><!-- /container -->
-
-    <script>
-    /*
-     * Check if video can play, and play it
-     */
-      (function() {
-        var video = document.getElementById("my-video");
-        video.addEventListener( "canplay", function() {
-          video.play();
-        });
-      })();
-    </script>
-
   </body>
 </html>
