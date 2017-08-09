@@ -1,9 +1,6 @@
 * {
   margin: 0;
- padding: 0;
-}
-
-* {
+  padding: 0;
   color: black;
   font-family: "Oxygen", sans-serif;
   text-shadow: 2px 2px 3px darkgray;
